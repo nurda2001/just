@@ -14,9 +14,9 @@
             <div class="uk-navbar-left">
                 <div class="navbar-collapse" id="navbar_collapse">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="">Домой</a></li>
-                        <li class="uk-parent"><a href="">Музыка</a></li>
-                        <li uk-tooltip="title: Временно в разработке"> <a href="#">Регистрация</a></li>
+                        <li class="uk-active"><a href="#">Домой</a></li>
+                        <li class="uk-parent"><a href="music.html">Музыка</a></li>
+                        <button uk-tooltip="title: Временно в разработке" class="uk-button uk-button-default" disabled>Sign in</button>
                     </ul>
                 </div>
                 
@@ -29,7 +29,7 @@
 
         <h3>Мир Музыкального Творчества!</h3>
 
-        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+        <div class="uk-grid-match uk-child-width-1-3@m" uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 500; repeat: true" uk-grid>
             <div>
                 <p>Здесь вы можете найти статьи о разного рода музыки</p>
                 <div class="uk-card uk-card-default uk-card-hover uk-card-body">
